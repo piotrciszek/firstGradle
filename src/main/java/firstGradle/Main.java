@@ -29,10 +29,10 @@ public class Main {
         System.out.println(metodyPociag.zwrocNajbardziejOpoziony());
         System.out.println("---------");
         metodyPociag.zwrocNajbardziejOpozniony2();
-        System.out.println("---------");
+        System.out.println("3:najbardziej");
         System.out.println(metodyPociag.zworc3NajbardziejOplacalne());
         System.out.println("---------");
-        System.out.println("---------");
+        System.out.println("1 najbardziej");
         System.out.println(metodyPociag.zwrocNajbardziejOplacalny());
 
     }

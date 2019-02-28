@@ -16,6 +16,8 @@ public class MetodyPociag {
         this.list = list;
     }
 
+
+
     public void wypiszWszystkiePociagiStream(){
         list.stream().forEach(li -> System.out.println(li));
     }
@@ -44,6 +46,7 @@ public class MetodyPociag {
             }
         }
     }
+
     public Optional<Pociag> zworc3NajbardziejOplacalne(){
         return list.stream().sorted(((o1, o2) -> Integer.compare(o1.getCenaPodrozy()/o1.getDlugoscPodrozy(), o2.getCenaPodrozy()/o2.getDlugoscPodrozy()))).findFirst();
 
